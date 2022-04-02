@@ -79,6 +79,5 @@ public class Main {
         System.out.println ("Увеличение за год Денис " + increaseForTheYersDenis);
         System.out.println ("Увеличение за год Кристина " + increaseForTheYersKristina);
 
-
     }
 }
