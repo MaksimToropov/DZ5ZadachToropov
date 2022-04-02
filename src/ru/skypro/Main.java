@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        // задача 1
+        // Р·Р°РґР°С‡Р° 1
         int dog = 7;
         byte cat = 7;
         short mouse = 3;
@@ -15,16 +15,16 @@ public class Main {
         char  bar = 35;
         System.out.println (dogIsAbult);
 
-        // Задача 2
+        // Р—Р°РґР°С‡Р° 2
         double boxer1 = 78.2;
         double boxer2 = 82.7;
         double weighOfAllBoxers = boxer1 + boxer2;
         double weightDifference = boxer1 - boxer2;
-        System.out.println ("Общий вес боксеров " + weighOfAllBoxers);
-        System.out.println ("Разница в весе боксеров " + weightDifference);
+        System.out.println ("РћР±С‰РёР№ РІРµСЃ Р±РѕРєСЃРµСЂРѕРІ " + weighOfAllBoxers);
+        System.out.println ("Р Р°Р·РЅРёС†Р° РІ РІРµСЃРµ Р±РѕРєСЃРµСЂРѕРІ " + weightDifference);
 
 
-        // Задача 3
+        // Р—Р°РґР°С‡Р° 3
 
         byte bananas = 5;
         int milkVolume = 200;
@@ -38,14 +38,14 @@ public class Main {
         int totalWeight = (bananasWeight * bananas) + (totalMilkWeight) + (iceCreamSundae * iceCreamSundaeWeight) + (rawEgge * rawEggeWeight);
         double totalWeight1 = totalWeight / 1000.00;
 
-        System.out.println ("Вес бананов " + bananasWeight * bananas);
-        System.out.println ("Вес молока " + totalMilkWeight);
-        System.out.println ("Вес мороженного " + iceCreamSundae * iceCreamSundaeWeight);
-        System.out.println ("Вес яиц " + rawEgge * rawEggeWeight);
-        System.out.println ("Общий вес продуктов " + totalWeight1 + "Кг!");
+        System.out.println ("Р’РµСЃ Р±Р°РЅР°РЅРѕРІ " + bananasWeight * bananas);
+        System.out.println ("Р’РµСЃ РјРѕР»РѕРєР° " + totalMilkWeight);
+        System.out.println ("Р’РµСЃ РјРѕСЂРѕР¶РµРЅРЅРѕРіРѕ " + iceCreamSundae * iceCreamSundaeWeight);
+        System.out.println ("Р’РµСЃ СЏРёС† " + rawEgge * rawEggeWeight);
+        System.out.println ("РћР±С‰РёР№ РІРµСЃ РїСЂРѕРґСѓРєС‚РѕРІ " + totalWeight1 + "РљРі!");
 
 
-        // Задача 4
+        // Р—Р°РґР°С‡Р° 4
         byte weightBusting = 7;
         short weightLoss = 250;
         short weightLoss2 = 500;
@@ -53,12 +53,12 @@ public class Main {
         int daysToLoseWeight = grPerKg / weightLoss;
         int daysToLoseWeight2 = grPerKg / weightLoss2;
         int averageNumberOfDays = (daysToLoseWeight + daysToLoseWeight2) / 2;
-        System.out.println ("Первый вариант похудения " + daysToLoseWeight );
-        System.out.println ("Второй вариант похудения " + daysToLoseWeight2 );
-        System.out.println ("Соеднее количество дней для похудения " + averageNumberOfDays);
+        System.out.println ("РџРµСЂРІС‹Р№ РІР°СЂРёР°РЅС‚ РїРѕС…СѓРґРµРЅРёСЏ " + daysToLoseWeight );
+        System.out.println ("Р’С‚РѕСЂРѕР№ РІР°СЂРёР°РЅС‚ РїРѕС…СѓРґРµРЅРёСЏ " + daysToLoseWeight2 );
+        System.out.println ("РЎРѕРµРґРЅРµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РґР»СЏ РїРѕС…СѓРґРµРЅРёСЏ " + averageNumberOfDays);
 
 
-        // Задача 5
+        // Р—Р°РґР°С‡Р° 5
         int mashaSalary = 67760;
         int denisSalary = 83690;
         int kristinaSalary = 76230;
@@ -72,12 +72,12 @@ public class Main {
         int increseForTheYersMasha = mashaSum * numberOfMonths;
         int increaseForTheYersDenis = denisSum * numberOfMonths;
         int increaseForTheYersKristina = kristinaSum * numberOfMonths;
-        System.out.println ("Фактическая Зп Маши " + actualSalaryMasha);
-        System.out.println ("Фактическая зп Дениса " + actualSalaryDenis);
-        System.out.println ("Фактичекая зп Кристина " + actualSalaryKristina);
-        System.out.println ("Увеличение за год Маша " + increseForTheYersMasha);
-        System.out.println ("Увеличение за год Денис " + increaseForTheYersDenis);
-        System.out.println ("Увеличение за год Кристина " + increaseForTheYersKristina);
+        System.out.println ("Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ Р—Рї РњР°С€Рё " + actualSalaryMasha);
+        System.out.println ("Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ Р·Рї Р”РµРЅРёСЃР° " + actualSalaryDenis);
+        System.out.println ("Р¤Р°РєС‚РёС‡РµРєР°СЏ Р·Рї РљСЂРёСЃС‚РёРЅР° " + actualSalaryKristina);
+        System.out.println ("РЈРІРµР»РёС‡РµРЅРёРµ Р·Р° РіРѕРґ РњР°С€Р° " + increseForTheYersMasha);
+        System.out.println ("РЈРІРµР»РёС‡РµРЅРёРµ Р·Р° РіРѕРґ Р”РµРЅРёСЃ " + increaseForTheYersDenis);
+        System.out.println ("РЈРІРµР»РёС‡РµРЅРёРµ Р·Р° РіРѕРґ РљСЂРёСЃС‚РёРЅР° " + increaseForTheYersKristina);
 
 
     }
